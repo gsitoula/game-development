@@ -3,6 +3,7 @@ Phaser Js Development Server
 
 Repository Architecture
 -----------------------
+
 *game-development
 *assets (images, sprites, tiles)
 *config (configuration file)
