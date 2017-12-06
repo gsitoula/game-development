@@ -1,19 +1,9 @@
-// Phaser and game code here
+var TopDownGame = TopDownGame || {};
 
-window.onload = function() {
+TopDownGame.game = new Phaser.Game(160, 160, Phaser.AUTO, '');
 
-    var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+TopDownGame.game.state.add('Boot', TopDownGame.Boot);
+TopDownGame.game.state.add('Preload', TopDownGame.Preload);
+TopDownGame.game.state.add('Game', TopDownGame.Game);
 
-    function preload () {
-        // image preload --- you can delete this
-        game.load.image('hello', 'assets/hello.png')
-    }
-
-    function create () {
-        // and this too
-        game.add.text(16, 16, 'Hello World!', { fontSize: '32px', fill: '#FFF'});
-        game.add.sprite(16, 40, 'hello');
-    }
-
-    function update() {}
-}
+TopDownGame.game.state.start('Boot');
