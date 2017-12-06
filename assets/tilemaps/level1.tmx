@@ -1,78 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="10" height="20" tilewidth="16" tileheight="16">
- <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="left-up" width="16" height="20" tilewidth="16" tileheight="16" nextobjectid="19">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="3520" columns="44">
   <image source="../images/tiles.png" width="705" height="1280"/>
  </tileset>
- <tileset firstgid="3521" name="tiles" tilewidth="16" tileheight="16">
-  <image source="../images/tiles.png" width="705" height="1280"/>
- </tileset>
- <layer name="backgroundLayer" width="10" height="20">
+ <layer name="backgroundLayer" width="16" height="20">
   <data encoding="csv">
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50,
-50,50,50,50,50,50,50,50,50,50
+94,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+94,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+94,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+94,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,
+93,93,93,93,93,93,93,93,93,93,93,93,93,93,93,93
 </data>
  </layer>
- <layer name="blockedLayer" width="10" height="20">
+ <layer name="blockedLayer" width="16" height="20">
   <data encoding="csv">
-1896,1896,1896,1896,1896,1896,1896,1896,1896,1896,
-1896,0,0,0,0,1896,1896,1896,1896,1896,
-1896,0,0,0,0,0,0,1896,1896,1896,
-1896,0,0,222,0,0,0,0,1896,1896,
-222,0,0,222,0,0,0,0,0,222,
-222,0,0,222,1632,1632,1632,0,0,222,
-222,0,0,222,0,0,0,0,0,222,
-222,0,0,222,0,0,0,0,0,222,
-222,0,0,222,0,0,0,0,0,222,
-222,0,0,222,0,0,0,0,0,222,
-222,0,0,222,222,222,222,222,222,222,
-222,0,0,0,0,0,0,0,0,222,
-222,0,0,0,0,0,0,0,0,222,
-222,0,0,0,0,0,0,0,0,222,
-222,222,222,222,1721,1721,1721,0,0,222,
-222,0,0,0,0,0,0,0,0,222,
-222,0,0,0,0,0,0,0,0,222,
-222,0,0,0,0,0,0,0,0,222,
-222,0,0,0,0,0,0,0,1896,222,
-222,222,222,222,222,222,222,222,222,222
+1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,1897,
+1897,0,0,0,0,0,0,0,0,0,0,1896,1896,1896,1896,1896,
+1897,0,0,0,0,0,0,0,0,0,0,0,1896,1896,1896,1896,
+1897,0,0,222,0,0,0,0,0,0,0,0,0,0,1896,1896,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,1633,1633,1633,0,0,0,0,0,0,0,0,222,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,222,222,222,222,222,222,222,222,222,222,222,222,222,
+222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,222,222,222,1720,1720,1720,0,0,0,0,0,0,0,222,
+222,222,222,0,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,
+222,0,0,0,0,0,0,0,0,0,0,0,0,0,1896,222,
+222,222,222,222,222,222,222,222,222,222,222,222,222,222,222,222
 </data>
  </layer>
- <objectgroup name="objectsLayer" width="10" height="20">
-  <object gid="1216" x="86" y="69">
-   <properties>
-    <property name="sprite" value="bluecup"/>
-    <property name="type" value="item"/>
-   </properties>
-  </object>
-  <object gid="1260" x="114" y="207">
-   <properties>
-    <property name="sprite" value="greencup"/>
-    <property name="type" value="item"/>
-   </properties>
-  </object>
-  <object gid="71" x="33" y="292">
-   <properties>
-    <property name="type" value="playerStart"/>
-   </properties>
-  </object>
-  <object gid="441" x="108" y="148">
+ <objectgroup name="objectLayer">
+  <object id="1" type="door" gid="445" x="114" y="145" width="16" height="16">
    <properties>
     <property name="sprite" value="browndoor"/>
     <property name="targetTilemap" value="level2"/>
@@ -81,28 +61,50 @@
     <property name="type" value="door"/>
    </properties>
   </object>
-  <object gid="1216" x="28" y="203">
-   <properties>
-    <property name="sprite" value="bluecup"/>
-    <property name="type" value="item"/>
-   </properties>
-  </object>
-  <object gid="1216" x="57" y="269">
-   <properties>
-    <property name="sprite" value="bluecup"/>
-    <property name="type" value="item"/>
-   </properties>
-  </object>
-  <object gid="1216" x="116" y="263">
-   <properties>
-    <property name="sprite" value="bluecup"/>
-    <property name="type" value="item"/>
-   </properties>
-  </object>
-  <object gid="1260" x="72" y="129">
+  <object id="2" type="item" gid="1260" x="93" y="274" width="16" height="16">
    <properties>
     <property name="sprite" value="greencup"/>
-    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object id="9" type="item" gid="1261" x="173" y="250" width="16" height="16">
+   <properties>
+    <property name="sprite" value="bluecup"/>
+   </properties>
+  </object>
+  <object id="10" type="playerStart" gid="83" x="33" y="286" width="16" height="16"/>
+  <object id="12" type="item" gid="1261" x="157" y="95" width="16" height="16">
+   <properties>
+    <property name="sprite" value="bluecup"/>
+   </properties>
+  </object>
+  <object id="13" type="item" gid="1261" x="203" y="125" width="16" height="16">
+   <properties>
+    <property name="sprite" value="bluecup"/>
+   </properties>
+  </object>
+  <object id="14" type="item" gid="1261" x="133" y="59" width="16" height="16">
+   <properties>
+    <property name="sprite" value="bluecup"/>
+   </properties>
+  </object>
+  <object id="15" type="item" gid="1260" x="176" y="288" width="16" height="16">
+   <properties>
+    <property name="sprite" value="greencup"/>
+   </properties>
+  </object>
+  <object id="16" type="item" gid="1260" x="89" y="60" width="16" height="16">
+   <properties>
+    <property name="sprite" value="greencup"/>
+   </properties>
+  </object>
+  <object id="17" type="item" gid="1260" x="166" y="152" width="16" height="16">
+   <properties>
+    <property name="sprite" value="greencup"/>
+   </properties>
+  </object>
+  <object id="18" type="item" gid="1260" x="199" y="83" width="16" height="16">
+   <properties>
+    <property name="sprite" value="greencup"/>
    </properties>
   </object>
  </objectgroup>
